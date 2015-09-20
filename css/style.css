@@ -8,7 +8,7 @@ body{
 	/*background: linear-gradient(#4C4C4C, #FFFFFF);*/
 	background-color: #4C4C4C;
 	max-width: 1000px;
-	min-width: 370px;
+	min-width: 430px;
 	margin: 0 auto;
 	padding: 15px 1px;
 
@@ -23,10 +23,20 @@ body{
 #quote{
 	width:320px;
 	text-align: right;
+	padding: 10px;
+	float: right;
+
 }
 
 #selfie{
+	margin: 15px;
+	float: right;
 
+}
+
+#boxes{
+	width: 885px;
+	margin: 0 auto;
 }
 
 header{
@@ -57,9 +67,9 @@ header p{
 }
 
 footer{
-	border: solid 5px black;
+	
 	max-width: 300px;
-	margin: 0 auto;
+	margin: 15px auto;
 	color: #FFFFFF;
 	font-size: 85%;
 }
@@ -98,4 +108,14 @@ nav li:hover{
 
 .clear{
 	clear:both;
+}
+
+.box{
+	background-color: #81DAF5;
+	border-radius:.5em;
+	box-shadow: 5px 5px 5px #000000;
+	width: 255px;
+	padding: 10px;
+	margin: 10px;
+	float: left;
 }
