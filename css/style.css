@@ -1,0 +1,101 @@
+body{
+	font-family: Garamond;
+}
+
+#container{
+	/*border: solid 5px blue;*/
+	border-radius: .5em;
+	/*background: linear-gradient(#4C4C4C, #FFFFFF);*/
+	background-color: #4C4C4C;
+	max-width: 1000px;
+	min-width: 370px;
+	margin: 0 auto;
+	padding: 15px 1px;
+
+}
+
+#philly{
+	width:100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+#quote{
+	width:320px;
+	text-align: right;
+}
+
+#selfie{
+
+}
+
+header{
+	/*border: solid 5px red;*/
+	background-color: #4C4C4C;
+	width: 220px;
+	height: 100px;
+	color: #FFFFFF;
+	/*padding: 10px;*/
+	float: left;
+
+}
+
+header h1{
+	text-shadow: 3px 3px #A4A4A4;
+	padding: 0px;
+	margin: 0px;
+}
+
+header h1 a, p a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+header p{
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+footer{
+	border: solid 5px black;
+	max-width: 300px;
+	margin: 0 auto;
+	color: #FFFFFF;
+	font-size: 85%;
+}
+
+nav{
+	/*border: solid 5px purple;*/
+	background-color: #4C4C4C;
+	width: 365px;
+	float: right;
+
+
+}
+
+nav ul{
+	/*border: solid 5px black;*/
+	background-color: #FFFFFF;
+	width: 366px;
+	padding: 0px;
+	margin: 0 auto;
+	list-style-type: none;
+	
+
+}
+
+nav li{
+	/*border: solid 5px red;*/
+	background-color: #4C4C4C;
+	color: #FFFFFF;
+	padding: 1em;
+	display: inline-block;
+}
+
+nav li:hover{
+	background-color: blue;
+}
+
+.clear{
+	clear:both;
+}
