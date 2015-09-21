@@ -39,6 +39,32 @@ body{
 	margin: 0 auto;
 }
 
+#leftColumn{
+	background-color: #A1AFBF;
+	border-radius: .5em;
+	max-width: 500px;
+	padding: 10px;
+	margin: 10px;
+	float: left;
+}
+
+#rightColumn{
+	background-color: #A1AFBF;
+	border-radius: .5em;
+	width: 295px;
+	padding: 10px;
+	margin: 10px;
+	float:left;
+}
+
+#information{
+	background-color: #A1AFBF;
+	border-radius: .5em;
+	width: 400px;
+	padding: 10px;
+	margin: 10px;
+}
+
 header{
 	/*border: solid 5px red;*/
 	background-color: #4C4C4C;
@@ -102,12 +128,25 @@ nav li{
 	display: inline-block;
 }
 
+nav li a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
 nav li:hover{
 	background-color: blue;
 }
 
+article{
+	padding: 10px;
+}
+article h1{
+	margin-left: 10px;
+	font-style: italic;
+}
+
 .clear{
-	clear:both;
+	clear: both;
 }
 
 .box{
@@ -118,4 +157,12 @@ nav li:hover{
 	padding: 10px;
 	margin: 10px;
 	float: left;
+}
+
+.instagram{
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	left: 0;
+	top: 50%;
 }
